@@ -20,7 +20,7 @@
 `timescale 1 ns/ 1 ns
 module testbench;
       reg a,b,s;
-      wire y;
+      wire y;    //yol
       mux2 dut(a,b,s,y);
  
    initial begin
